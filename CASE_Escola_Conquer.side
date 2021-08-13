@@ -1,0 +1,734 @@
+{
+  "id": "292c2fde-3236-4f87-915b-0e73af011136",
+  "version": "2.0",
+  "name": "CASE_Escola_Conquer",
+  "url": "https://conqueronline.com.br",
+  "tests": [{
+    "id": "f8e56a94-f278-41d6-bcb4-c5edcd88f4bb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0f409c3e-26cc-4263-8bae-25f170a1d358",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82139844-8a1f-49c4-9fd2-419cc7f5bb5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bfead65-40da-4420-9828-675f4b630586",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ir para Conquer English",
+      "targets": [
+        ["linkText=Ir para Conquer English", "linkText"],
+        ["css=.ml-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Ir para Conquer English')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ingles.escolaconquer.com.br/login')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ir para Conquer English ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "decdf319-b37d-4eab-8329-8114860e6acb",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79308cab-74fa-477a-ae66-297148b4f19d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b98020b-9391-4bc6-8054-0ea19be86101",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testetech@filesh.site"
+    }, {
+      "id": "96633728-8521-44af-80bc-2d5d2a0280c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=password", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f9bdbe-a821-4a31-bc78-c1a9e00318cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=password", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": " interview@2021"
+    }, {
+      "id": "0c583334-ce4b-46a2-901a-493ea5e168c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark > .fas",
+      "targets": [
+        ["css=.btn-dark > .fas", "css:finder"],
+        ["xpath=//form[@id='login']/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5512f423-ffc0-47dd-bef4-bd2b22ea7049",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e3fa1ec-8eee-4be4-92c8-d087ef10cecd",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testetech@filesh.site"
+    }, {
+      "id": "89cba57b-80b8-4aa0-9e6f-8edcf4c724c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=password", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9542a93e-4dcc-40b5-9a23-a20bb4b7965f",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=password", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "interview@2021"
+    }, {
+      "id": "a9f88aff-4f05-427d-a216-bbcda8b3c20c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=password", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "812e49d9-f0cd-4411-82e9-8489cbcae773",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a568546b-219a-4e73-9d0b-a94a033a8fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(1)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Gestão')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853483')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28171a24-579a-4acb-91c1-2c6e7f177eea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fa04ce-15ec-479a-ba74-62eaebba00f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0b564d-dfff-4993-b2c7-187292509441",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(2)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Data Analysis')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853514')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e8af5d-fe8b-4a5c-aa6d-a51bdbaedd1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c3096d-f6ce-45b5-a539-0ff67b5359f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ca763a4-5a7b-44eb-9720-aed70c2a8911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(3)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inovação')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853539')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbe41ac4-500f-4381-87a2-22ea9ad8849a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursos",
+      "targets": [
+        ["css=.cursos", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3b76733-259b-40c5-bc72-72abe2299a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb388583-1076-4df1-ba84-4882c4296181",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03dce023-0951-429f-8948-a612e3cf9fdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(3)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inovação')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853539')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7d25e2-9e8a-46c6-8dfa-ece8d3077a40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f3688a-ef5f-4221-85c6-0f519ccc5988",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f352287-e609-41db-97c2-e52146d3ecbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(4)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Liderança')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853566')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "397bb859-bb3e-4a19-bf0c-dc821370fb30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61e1758-5461-44ca-81ac-b2b05543eea4",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa94b6e-f12c-42fc-a331-c579d99de14b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(4)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Liderança')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853566')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdd9a02-4e0e-4f9a-b2d6-4c9964dda5f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54982269-af3f-4541-8d0b-8351eab14769",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d23c759-8089-4b54-8361-48c3a9ee3cdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(4)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Liderança')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853566')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f8305e-46cb-41a3-98d8-e4036d979b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed7bd8ef-5c18-43f8-bf84-b96562f000b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a7e0ddd-f23b-4eac-9451-974103fb3150",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(5)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Marketing Digital')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853611')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c3dfea7-95e9-49b7-acfb-7be997612e91",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e6e1e9-c13f-4fca-aa70-2996876245a1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.curso-item:nth-child(7) .d-flex > div",
+      "targets": [
+        ["css=.curso-item:nth-child(7) .d-flex > div", "css:finder"],
+        ["xpath=//div[7]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6c0942-b8ad-4332-a3f2-140cb0b31a15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-wrap",
+      "targets": [
+        ["css=.page-wrap", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16569f2c-2300-414e-ab07-703db61febfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer img",
+      "targets": [
+        ["css=.footer img", "css:finder"],
+        ["xpath=(//img[@alt='ConquerPlus'])[2]", "xpath:img"],
+        ["xpath=//footer/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecbb0822-92c4-46f2-9055-b731620863f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLinkCategoria",
+      "targets": [
+        ["id=navbarTogglerMenuLinkCategoria", "id"],
+        ["linkText=CATEGORIAS", "linkText"],
+        ["css=#navbarTogglerMenuLinkCategoria", "css:finder"],
+        ["xpath=//a[contains(text(),'CATEGORIAS')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLinkCategoria']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CATEGORIAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1e587f-a247-47e3-a4d7-9e4d0704ab22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(6)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Soft Skills')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/conquer-plus/cursos/categoria/1853948')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win473",
+      "windowTimeout": 2000
+    }, {
+      "id": "fff7be5c-cb66-4253-8c68-c2f3500a9ff9",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLink",
+      "targets": [
+        ["id=navbarTogglerMenuLink", "id"],
+        ["css=#navbarTogglerMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Felipe Ferreira Vieira')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLink']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7341be8f-0856-446f-931e-0d97f08ad6fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(1)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Meu Perfil')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/alunos/perfil')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "548c933b-eeb2-4342-9ba1-29b6e983177a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "800496bf-ac34-4626-acb2-66f706504981",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7075}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed08ca5a-ab11-4651-8c3b-6756e0ed4932",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win858}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5afa1058-bc6e-47df-8768-7263f6078f97",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4674}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29c2f63a-8432-4c46-afdb-8ab429da1eb4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win473}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d48182d-d2c1-4181-9609-bdb508d61483",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a6b9741-3677-4778-b6f8-34fffa8c2ec4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-brand > img",
+      "targets": [
+        ["css=.navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='ConquerPlus']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "effdf7a5-8809-4766-abea-216f07ab38e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLink",
+      "targets": [
+        ["id=navbarTogglerMenuLink", "id"],
+        ["css=#navbarTogglerMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Felipe Ferreira Vieira')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLink']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70557564-76dc-4781-b63b-9f1b3c38b25e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(2)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Certificados')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/certificados')]", "xpath:href"],
+        ["xpath=//li[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f012a7-1ab4-4bc1-890c-3e9e662762d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#infoModal span",
+      "targets": [
+        ["css=#infoModal span", "css:finder"],
+        ["xpath=//div[@id='infoModal']/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95aeeb18-ed4d-4e8d-ba10-f909c84c345b",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarTogglerMenuLink",
+      "targets": [
+        ["id=navbarTogglerMenuLink", "id"],
+        ["css=#navbarTogglerMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Minha conta')]", "xpath:link"],
+        ["xpath=//a[@id='navbarTogglerMenuLink']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ea06b2-5723-4082-a14e-0a9b515f190f",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout",
+      "targets": [
+        ["id=logout", "id"],
+        ["css=.dropdown-menu > #logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Sair')]", "xpath:link"],
+        ["xpath=//a[@id='logout']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarTogglerContent']/ul/li[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30937426-ed9a-49e2-a27b-a12540edb1ee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8e56a94-f278-41d6-bcb4-c5edcd88f4bb"]
+  }],
+  "urls": ["https://conqueronline.com.br/"],
+  "plugins": []
+}
